@@ -1,4 +1,4 @@
-kingdom_animal_dict = {
+kingdom_emblem_dict = {
     'SPACE': 'GORILLA',
     'LAND': 'PANDA',
     'WATER': 'OCTOPUS',
@@ -6,5 +6,18 @@ kingdom_animal_dict = {
     'AIR': 'OWL',
     'FIRE': 'DRAGON'
 }
-ally_list = ['SPACE']
-kings = {'SPACE': 'King Shan', 'AIR': 'Al Falcone'}
+default_king = 'King Shan'
+kings_in_southeros = [
+    'King Shan', 'Al Falcone', 'Shenron', 'Mao Zedong', 'Captain Jack Sparrow',
+    'Night King'
+]
+allies = {
+    'King Shan': ['SPACE'],
+    'Al Falcone': ['AIR'],
+    'Shenron': ['FIRE'],
+    'Mao Zedong': ['LAND'],
+    'Captain Jack Sparrow': ['WATER'],
+    'Night King': ['ICE']
+}
+allies_required = 3
+encrypted_direction = 'clockwise'

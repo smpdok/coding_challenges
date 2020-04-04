@@ -5,7 +5,7 @@ class ReadFile:
     def __init__(self, input_file_path):
         self.input_file_path = input_file_path
 
-    def read_from_file(self):
+    def read_from_file_as_rows(self):
         """[Read rows from input file]
         
         Returns:

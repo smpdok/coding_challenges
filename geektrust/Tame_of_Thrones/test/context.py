@@ -6,6 +6,5 @@ root_path, slash, test = current_path.rpartition("\\")
 sys.path.insert(0, root_path)
 
 from scripts.read_file import ReadFile
-from scripts.allies import Ally
-from scripts.decrypt_message import DecryptMessage
-import geektrust
+from scripts.message import Message
+from geektrust import Southeros
